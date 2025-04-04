@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letters</title>
+    <link rel="stylesheet" href="lettercss2.css">
+</head>
+<body>
+
+<!-- Envelope Containers -->
+<div class="envelope-container">
+    <div class="letter-image" onclick="openLetter(0)">
+        <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+                <div class="letter-border"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+
+    <div class="letter-image" onclick="openLetter(1)">
+        <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+                <div class="letter-border"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+
+    <div class="letter-image" onclick="openLetter(2)">
+        <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+                <div class="letter-border"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+</div>
+
+<!-- Letter Popups -->
+<div class="letter-popup" id="letterPopup">
+    <div class="letter-content">
+        <button class="close-btn" onclick="closeLetter()">Exit</button>
+        <div id="letterText"></div>
+    </div>
+</div>
+
+<script src="letterjs2.js"></script>
+</body>
+</html>
